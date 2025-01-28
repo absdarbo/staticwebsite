@@ -1,0 +1,35 @@
+#map {
+  height: 500px;
+}.popup-content {
+  width: 300px;
+}.key {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}.key-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}.key-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+}.add-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}.marker-popup {
+  position: relative;
+}.edit-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 3px 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
